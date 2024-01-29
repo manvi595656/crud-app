@@ -1,0 +1,23 @@
+@import "../../index.scss";
+.optionsTab{
+    display: flex;
+    margin: 24px 0px 0px 0px;
+    background-color: $lightCream;
+    border-radius: 16px 16px 0px 0px;
+}
+.optionsIcon {
+    margin: 20px 10px;
+    font-size: 13px;
+    text-align: center;
+}
+.optionsImageIcon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+.OptionsPanelText {
+    padding: 4px 0px 0px 0px;
+    color: $darkBlue;
+}

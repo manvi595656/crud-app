@@ -1,0 +1,15 @@
+@import "../../index.scss";
+
+.tabSection {
+    margin: 24px;
+    font-size: 13px;
+}
+.tabItemSection {
+   opacity: 50%;
+   color: $white;
+   margin: 0px 33px 0px 0px;
+}
+.tabItemSelected {
+    opacity: 100%;
+    border-bottom: 2px solid $blue;
+}

@@ -1,0 +1,12 @@
+.topSection {
+    position: sticky;
+    top: 30px;
+}
+.scrollPanel {
+    z-index: 1;
+    position: relative;
+}
+.bottomPanel {
+    z-index: 100;
+    position: relative;
+}

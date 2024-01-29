@@ -1,0 +1,23 @@
+@import "../../index.scss";
+.boxSection {
+    background-color: $borderGrey; 
+    border-radius: 8px;
+    margin: 24px 24px 0px 24px;
+    border: 1px solid $borderGrey;
+    border-radius: 8px;
+    -webkit-box-shadow: -2px -3px 5px 0px $cream;
+    -moz-box-shadow:-2px -3px 5px 0px $cream;
+    box-shadow: -2px -3px 5px 0px $cream;
+    padding: 24px;
+}
+.boxSectionText {
+    margin: 0px 12px;
+    vertical-align: super;
+    font-size: 14px;
+}
+.scrollMainSection {
+    margin: -5px 0px 0px 0px;
+    background-color: $white;
+    display: inline-block;
+    width: 100vw;
+}

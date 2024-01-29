@@ -1,0 +1,45 @@
+@import "../../index.scss";
+.cardInputModal {
+    position: fixed;
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    padding: 24px;
+    z-index: 9999;
+    border-radius: 16px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.cardInputModal div,input,option {
+    margin :10px 0px;
+}
+.cardInputModal input {
+    border: 2px solid $green;
+    border-radius: 6px;
+}
+.closeBtn {
+    width: 18px;
+    float: right;
+}
+.modalSubmitBtn {
+    background-color: $green;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.modalContainer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: grey;
+    display: flex;
+    opacity: 50%;
+}
+.errorMsg {
+    color: $green;
+}

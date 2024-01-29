@@ -1,0 +1,32 @@
+@import "../../index.scss";
+.BottomContainer {
+    display: flex;
+    background-color: $white;
+    height: 56px;
+    width: 100vw;
+    -webkit-box-shadow: 0px -6px 10px 0px rgba(197,197,197,1);
+    -moz-box-shadow: 0px -6px 10px 0px rgba(197,197,197,1);
+    box-shadow: 0px -3px 10px 0px rgba(197,197,197,1);
+    bottom: 0px;
+    position: fixed;
+    justify-content: space-around;
+}
+.bottomIcon {
+    padding: 9px;
+    color: $grey;
+    font-size: 9px;
+}
+
+.bottomIconSelected {
+    color:$green;
+}
+.bottomImageIcon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+.bottomPanelText {
+    padding: 4px 0px 0px 0px;
+}
